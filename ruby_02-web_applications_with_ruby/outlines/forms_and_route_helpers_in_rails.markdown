@@ -23,12 +23,12 @@ Let's add a few tools from the console:
 
 ```
 $ rails c
-Book.create(name: "The Lord of the Rings", price: 100.00, quantity: 10)
-Book.create(name: "The Catcher and the Rye", price: 15.99, quantity: 10)
-Book.create(name: "The Alchemist", price: 20.00, quantity: 10)
-Book.create(name: "Charlotte's Web", price: 5.99, quantity: 10)
-Book.create(name: "To Kill a Mockingbird", price: 19.99, quantity: 10)
-Book.create(name: "One Hundred Years of Solitude", price: 23.99, quantity: 10)
+Book.create(title: "The Lord of the Rings", price: 100.00, quantity: 10)
+Book.create(title: "The Catcher and the Rye", price: 15.99, quantity: 10)
+Book.create(title: "The Alchemist", price: 20.00, quantity: 10)
+Book.create(title: "Charlotte's Web", price: 5.99, quantity: 10)
+Book.create(title: "To Kill a Mockingbird", price: 19.99, quantity: 10)
+Book.create(title: "One Hundred Years of Solitude", price: 23.99, quantity: 10)
 ```
 
 ## Routes
